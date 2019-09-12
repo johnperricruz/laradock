@@ -1,14 +1,18 @@
 ## Modified from Laradock
 
+
+ 
+## Installation: 
+- Download Docker : https://hub.docker.com/?overlay=onboarding
+- git clone https://github.com/johnperricruz/laradock.git
+- ./docker-build.sh (add chmod +x if needed)
+
+## Usage: 
+
 - ./docker-build.sh   [null]
 - ./change-php.sh     [5.6 / 7.0 / 7.1 / 7.2 / 7.3]
 - ./docker-init.sh    [null]
 - ./import-db.sh      [db_name, sql_location]
- 
-## Installation: 
-- git clone https://github.com/johnperricruz/laradock.git
-- ./docker-build (add chmod +x if needed)
-
 
 ## Security Vulnerabilities
 
