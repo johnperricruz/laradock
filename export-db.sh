@@ -1,0 +1,1 @@
+docker exec -i laradock_mysql_1 mysqldump --single-transaction -uroot -proot $1 | sed -e "s/DEFINER=[^*]*\*/\*/" | gzip > $2.gz

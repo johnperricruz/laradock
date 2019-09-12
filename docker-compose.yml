@@ -355,6 +355,8 @@ services:
         context: ./mysql
         args:
           - MYSQL_VERSION=${MYSQL_VERSION}
+      # Set max_allowed_packet to 256M (or any other value)
+      command: --max_allowed_packet=32505856
       environment:
         - MYSQL_DATABASE=${MYSQL_DATABASE}
         - MYSQL_USER=${MYSQL_USER}
