@@ -1,0 +1,1 @@
+docker exec -i laradock_mysql_1 mysql -uroot -proot $1 < $2

@@ -1,0 +1,1 @@
+docker build apache2 mysql phpmyadmin php-fpm
