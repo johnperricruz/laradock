@@ -1,1 +1,1 @@
-docker-compose build apache2 mysql phpmyadmin php-fpm
+docker-compose build apache2 mysql phpmyadmin php-fpm mailhog workspace
