@@ -14,6 +14,9 @@
 - ./docker-init.sh    [null]
 - ./import-db.sh      [db_name, sql_location]
 
+Phpmyadmin url : http://localhost:8080
+Mailhog url (For Emails) : http://localhost:8025
+
 ## Security Vulnerabilities
 
 If you discover a security vulnerability within this framework, please send an e-mail to John Perri Cruz at johnperricruz@gmail.com. All security vulnerabilities will be promptly addressed.
