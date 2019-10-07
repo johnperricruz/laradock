@@ -14,7 +14,7 @@
 - ./docker-init.sh    [null]
 - ./import-db.sh      [db_name, sql_location]
 
-Phpmyadmin url : http://localhost:8080
+Phpmyadmin url : http://localhost:8080 <br/>
 Mailhog url (For Emails) : http://localhost:8025
 
 ## Security Vulnerabilities
