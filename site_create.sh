@@ -8,7 +8,8 @@ fi
 
 #Create dir file
 sudo mkdir ../$1/
-
+sudo $USER  ../$1/
+sudo chmod 777 ../$1/
 
 #Create VHOST
 echo "<VirtualHost *:80>
